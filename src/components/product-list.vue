@@ -120,9 +120,10 @@ onMounted(() => {
 }
 
 .productImage {
-    width: 100px;
-    height: auto;
+    width: 150px;
+    height: 150px;
     margin-right: 15px;
+    object-fit: contain;
 }
 
 h2 {
